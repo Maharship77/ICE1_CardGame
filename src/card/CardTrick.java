@@ -18,7 +18,8 @@ public class CardTrick {
         
         for (int i=0; i<magicHand.length; i++)
         {
-            Card c = new Card();
+            Card luckyCard = new Card(5,"Spades");
+            magicHand.add(luckyCard);
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
